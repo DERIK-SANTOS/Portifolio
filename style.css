@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(189, 189, 189);
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    width: 100%;
+    padding: 0px 40px;
+    align-items: center;
+}
+.meus-links{
+    display: flex;
+
+}
+.meus-links li{
+    padding: 0px 20px;
+}
+.meus-links li a{
+    font-size: 20px;
+    font-family: "Red Hat Display", sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.meus-links li a:hover{
+    color:rgb(15, 143, 143); 
+}
+main{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+main h1{
+    font-size: 50px;
+}
+main h1 span{
+    color:rgb(12, 105, 105);
+    font-weight: 800;
+}
+main h2 span{
+    color: rgb(21, 139, 189);
+}
